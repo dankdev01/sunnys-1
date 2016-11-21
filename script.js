@@ -1,34 +1,50 @@
-/* onclick of a menu-link
-	remove current menu
+var menuContainer = document.getElementById('main-menu');
+var drink = document.getElementById('drink-link');
+var drinks = document.getElementById('drinks');
+var breakfast = document.getElementById('bfast-link');
+var breakfasts = document.getElementById('breakfast');
+var lunch = document.getElementById('lunch-link');
+var lunches = document.getElementById('lunch');
+var salad = document.getElementById('salad-link');
+var salads = document.getElementById('salads');
+var panini = document.getElementById('panini-link');
+var paninis = document.getElementById('paninis');
 
-   show menu pertaining to that link */
-
-
-// Adding Google Maps API w/ Marker
-// function initMap() {
-// 	var uluru = { lat: -25.363, lng: 131.044 };
-// 	var map = new google.maps.Map(document.getElementById('map'), {
-// 		zoom: 4,
-// 		center: uluru
-// 	});
-// 	var maker = new google.maps.Marker({
-// 		position: uluru,
-// 		map: map
-// 	});
-// }
-
-
-function showDrinks(e) {
-	console.log("I have been clicked");
-	var drinks = document.getElementById('drinks');
-	console.log(drinks.getAttribute("id"));
-	drinks.style.display = "inherit";
+function clearContainer(elem) {
+	elem.innerHTML = "";
 }
 
-function showBreakfast(e) {
-	console.log("Breakfast has been clicked");
-	var breakfast = document.getElementById('breakfast');
-	console.log(breakfast.getAttribute("id"));
-	breakfast.style.display = "inherit";
-}
+drink.addEventListener("click", function(event){
+	event.preventDefault();
+	clearContainer(menuContainer);
+	menuContainer.appendChild(drinks);
+	drinks.style.display = 'Block';
+});
 
+breakfast.addEventListener("click", function(event){
+	event.preventDefault();
+	clearContainer(menuContainer);
+	menuContainer.appendChild(breakfasts);
+	breakfasts.style.display = 'Block';
+});
+
+lunch.addEventListener("click", function(event){
+	event.preventDefault();
+	clearContainer(menuContainer);
+	menuContainer.appendChild(lunches);
+	lunches.style.display = 'Block';
+});
+
+salad.addEventListener("click", function(event){
+	event.preventDefault();
+	clearContainer(menuContainer);
+	menuContainer.appendChild(salads);
+	salads.style.display = 'Block';
+});
+
+panini.addEventListener("click", function(event){
+	event.preventDefault();
+	clearContainer(menuContainer);
+	menuContainer.appendChild(paninis);
+	paninis.style.display = 'Block';
+});

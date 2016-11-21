@@ -29,9 +29,6 @@ nav {
 	width: 100%;
 }
 
-.menu-links {
-	display: block;
-}
 
 .logo {
 	height: 94px;
@@ -54,11 +51,11 @@ nav {
 	text-align: center;
 }
 
-#menu-links {
+.menu-links {
 	padding: 25px 0 25px 0;
 }
 
-#menu-links > a {
+.menu-links > a {
 	margin-right: 25px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -68,16 +65,13 @@ nav {
 	padding: 8px;
 }
 
-#menu-links > a:hover {
+.menu-links > a:hover {
 	color: #ffffff;
 	background-color: #fcdb80;
 	border: 2px solid #fcdb80;
 	text-decoration: none;
 }
 
-#breakfast, #drinks, #salads, #sandwiches, #paninis, #wraps, #lunchbox, #vegetarian {
-	display: none;
-}
 
 .food-row {
 	margin-right: 0 atuo;
@@ -91,10 +85,8 @@ nav {
 	padding: 0px 25px;
 }
 
-#map {
-	width: 100%;
-	height: 100%;
-	background-color: grey;
+#breakfast, #lunch, #salads, #paninis {
+	display: none;
 }
 
 .catering {
