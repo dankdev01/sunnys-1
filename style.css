@@ -129,3 +129,14 @@ footer {
 	min-height: 230px;
 	max-height: 300px;
 }
+
+.foot-item {
+	text-align: center;
+}
+
+.fa {
+	color: white;
+	margin-right: 10px;
+}
+
+
