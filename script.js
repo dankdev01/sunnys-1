@@ -10,7 +10,7 @@ function clearContainer(elem) {
 	elem.innerHTML = "";
 }
 
-function alertMe(event) {
+function switchMe(event) {
 	event.preventDefault();
 	if (event.currentTarget.id === 'drink-link') {
 		clearContainer(menuContainer);
