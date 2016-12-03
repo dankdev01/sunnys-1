@@ -60,7 +60,6 @@ html,body {
 
 .menu-links > a {
 	text-transform: uppercase;
-	text-decoration: none;
 	font-weight: 600;
 	color: #a0a0a0;
 	border: 2px solid #a0a0a0;
@@ -146,12 +145,8 @@ footer {
 }
 
 .fa {
-	color: #ffffff;
+	color: white;
 	margin-right: 10px;
-}
-
-.fa:hover {
-	color: #f9bd25;
 }
 
 @media only screen and (max-width: 768px) {
