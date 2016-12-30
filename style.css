@@ -78,7 +78,7 @@ html,body {
 
 
 .food-row {
-	margin-right: 0 atuo;
+	margin-right: 0 auto;
 }
 
 .food-box {
@@ -88,6 +88,8 @@ html,body {
 .food-description {
 	padding: 0px 25px;
 }
+
+
 
 #breakfast, #lunch, #salads, #paninis {
 	display: none;
@@ -137,7 +139,7 @@ html,body {
 footer {
 	background-color: #9b9b9b;
 	color: white;
-	min-height: 230px;
+	min-height: 200px;
 	max-height: 370px;
 }
 
