@@ -101,6 +101,11 @@ html,body {
 	color: white;
 }
 
+#catering-title {
+	text-transform: uppercase;
+	text-align: center;
+}
+
 #cater {
 	text-transform: uppercase;
 	text-align: center;
