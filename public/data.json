@@ -1,0 +1,239 @@
+{
+    "drinks": [
+        {
+            "name": "House Coffee",
+            "price": ["1.69", "1.89"]
+        },
+        {
+            "name": "Americano",
+            "price": ["2.19", "2.49"]
+        },
+        {
+            "name": "Cappucino",
+            "price": ["2.59", "2.99"]
+        },
+        {
+            "name": "Cafe Latte",
+            "price": ["2.59", "2.99"]
+        },
+        {
+            "name": "Mocha",
+            "price": ["2.79", "3.29"]
+        },
+        {
+            "name": "White Mocha",
+            "price": ["2.79", "3.29"]
+        },
+        {
+            "name": "Zebra Mocha",
+            "price": ["2.79", "3.29"]
+        },
+        {
+            "name": "Caramel Machiato",
+            "price": ["2.79", "3.29"]
+        }
+    ],
+    "breakfast": [
+        {
+            "name": "Bagel",
+            "description": "Plain, Cinnamon Raisin, Whole Wheat, Everything",
+            "price": "$2.39"
+        },
+        {
+            "name": "Bagel w/ Butter",
+            "description": "Plain, Cinnamon Raisin, Whole Wheat, Everything",
+            "price": "$2.09"
+        },
+        {
+            "name": "Bagel w/ Cream Cheese",
+            "description": "Plain, Cinnamon Raisin, Whole Wheat, Everything",
+            "price": "$2.39"
+        },
+        {
+            "name": "Egg & Cheese",
+            "description": "Add Bacon, Sausage, Turkey Bacon or Ham for $1. Add Steak or Chicken for $2",
+            "price": "$3.29"
+        },
+        {
+            "name": "Steak Egg & Cheese",
+            "description": "Steak, 2 Eggs and American Cheese",
+            "price": "$5.49"
+        },
+        {
+            "name": "Breakfast BLT",
+            "description": "2 Eggs, Bacon, Lettuce, and Tomato",
+            "price": "$5.49"
+        },
+        {
+            "name": "Breakfast Burrito",
+            "description": "2 Eggs, Choice of Meat, Red & Green Peppers, Onions and American Cheese",
+            "price": "$5.99"
+        },
+        {
+            "name": "Breakfast Platter",
+            "description": "2 Eggs, Choice of Meat, Hashbrown and Toast",
+            "price": "$5.99"
+        },
+        {
+            "name": "Omelet Platter",
+            "description": "2 Eggs, Choice of Meat, Green & Red Peppers, Onions, Cheddar Cheese, Hashbrown and Toast",
+            "price": "$6.49"
+        }
+    ],
+    "lunch": [
+        {
+            "name": "BLT",
+            "description": "Bacon, Lettuce, Tomato and Mayo",
+            "price": "$5.99"
+        },
+        {
+            "name": "Reuben",
+            "description": "Corn Beef, Sauerkraut, Swiss Cheese and Thousand Island Dressing",
+            "price": "$6.99"
+        },
+        {
+            "name": "Italian Cold Cut",
+            "description": "Salami, Pepperoni, Ham, Provolone Cheese, Lettuce, Tomato, Hot Peppers and Italian Dressing",
+            "price": "$7.29"
+        },
+        {
+            "name": "Turkey Avocado",
+            "description": "Turkey Breast, Avocado, Provolone Cheese, Lettuce, Tomato and Pesto Mayo",
+            "price": "$7.29"
+        },
+        {
+            "name": "Pita Tuna",
+            "description": "Tuna Salad, Sprouts, Cucumber, Lettuce, Tomato, Red Onions and Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "Club Special",
+            "description": "Roast Beef, Turkey, Bacon, Swiss Cheese, Lettuce, Tomato and Mayo",
+            "price": "$7.29"
+        },
+        {
+            "name": "Steak and Cheese",
+            "description": "Steak, Onions, Green Peppers, Provolone Cheese, Lettuce, Tomato and Mayo",
+            "price": "$7.29"
+        },
+        {
+            "name": "Chicken Cheese Steak",
+            "description": "Chicken Breast, Onions, Green Peppers, Provolone Cheese, Lettuce, Tomato and Mayo",
+            "price": "$7.29"
+        },
+        {
+            "name": "Egg Salad",
+            "description": "Homemade Egg Salad, Lettuce, Tomato and Mayo",
+            "price": "$4.99"
+        },
+        {
+            "name": "Chicken or Tuna Salad",
+            "description": "Tuna or Chicken Salad, Lettuce, Tomato and Mayo",
+            "price": "$6.49"
+        },
+        {
+            "name": "Grilled Cheese",
+            "description": "American Cheese - Add Bacon or Ham or Turkey Bacon for $1",
+            "price": "$7.29"
+        },
+        {
+            "name": "Bulgogi Box",
+            "description": "Bulgogi (Korean Marinated Beef), Steamed Rice, Side Salad and Side Item",
+            "price": "$8.99"
+        },
+        {
+            "name": "Bibim Bap",
+            "description": "Choice of Bulgogi, Chicken (Spicy Available), or Veggie, Cooked Egg, Red Cabbage, Lettuce, Cucumbers, Caramelized Carrots, Steamed Rice, House Pepper Sauce",
+            "price": "$6.99"
+        },
+        {
+            "name": "Spinach Melt",
+            "description": "Spinach, Sun-Dried Tomatos, Provolone Cheese, Feta Cheese, Pesto Mayo served on Focaccia Bread",
+            "price": "$5.99"
+        },
+        {
+            "name": "Humdinger",
+            "description": "Hummus, Avocado, Sprout, Red Onions, Lettuce and Tomato",
+            "price": "$5.99"
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$"
+        }
+    ],
+    "salads": [
+        {
+            "name": "House Salad",
+            "description": "Romaine Lettuce, Tomatos, Green &amp; Red Peppers, Onions, Carrots, Cucumbers, Hard Boiled Egg w/ Balsamic Dressing",
+            "price": "$5.99"
+        },
+        {
+            "name": "Caesar Salad",
+            "description": "Romaine Lettuce, Tomatos, Onions, Ctroutons, Parmasean Cheese w/ Caesar Dressing",
+            "price": "$6.49"
+        },
+        {
+            "name": "Greek Salad",
+            "description": "Romaine Lettuce, Olives, Cucumbers, Red Onions, Tomatos, Feta Cheese w/ Greek Dressing",
+            "price": "$6.99"
+        },
+        {
+            "name": "Cobb Salad",
+            "description": "Romaine Lettuce, Chicken Breast, Bacon, Avocado, Tomatos w/ Balsamic Vinagrette",
+            "price": "$7.99"
+        }
+    ],
+    "paninis": [
+        {
+            "name": "Roast Beef Panini",
+            "description": "Roast Beef, Cheddar Cheese, Caramelized Onions and Horseradish Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "California BLT Panini",
+            "description": "Avocado, Bacon, Cheddar Cheese, Lettuce, Tomato and Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "Turkey Bacon Swiss Panini",
+            "description": "Turkey Breast, Bacon, Swiss Cheese and Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "California Chicken Panini",
+            "description": "Avocado, Chicken Breast, Bacon, Provolone Cheese, Lettuce, Tomato and Horseradish Mayo",
+            "price": "$7.49"
+        },
+        {
+            "name": "Ham & Swiss Panini",
+            "description": "Blackforest Ham, Swiss Cheese, Mustard or Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "Chicken Fajita Wrap",
+            "description": "Chicekn Breast, Cheddar Cheese, Lettuce, Tomato and Mango Salsa",
+            "price": "$6.99"
+        },
+        {
+            "name": "Chicken Caesar Wrap",
+            "description": "Chicken Breast, Paramsean Cheese, Lettuce, Tomato, Red Onions and Caesar Dressing",
+            "price": "$6.99"
+        },
+        {
+            "name": "Veggie Lovers Wrap",
+            "description": "Avocado, Sprouts, Cucumbers, Red &amp; Green Peppers, Red Onions, Lettuce, Tomato and Pesto Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "Turkey Hummus Wrap",
+            "description": "Turkey Breast, Avocado, Hummus, Sprouts, Cucumbers, Lettuce and Tomato",
+            "price": "$7.29"
+        },
+        {
+            "name": "Korean Bulgogi Wrap",
+            "description": "Bulgogi (Korean Marinated Beef), Provolone Cheese, Onions, Steamed Rice, Lettuce, Tomato and House Mayo",
+            "price": "$7.29"
+        }
+    ]
+}
