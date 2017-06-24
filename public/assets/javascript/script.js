@@ -20,7 +20,7 @@
 				loopMenu(response[menuName]);
 				return response;
 			}
-		}
+		};
 		req.send();
 	}
 
@@ -31,8 +31,8 @@
 		menuListArray.forEach(function(link) {
 			link.addEventListener('click', function() {
 				getData(link.innerHTML.toLowerCase());
-			})
-		})
+			});
+		});
 	}
 
 	function loopMenu(response) {
@@ -40,7 +40,7 @@
 		menu.innerHTML = "";
 		response.forEach(function(res) {
 			menu.appendChild(menuItem(res));
-		})
+		});
 	}
 
 	function menuItem(object) {
