@@ -38,6 +38,11 @@ body {
 .menu {
     .menu-links-container {
         border: 1px solid red;
+		ul {
+			.menu-item {
+				border: 1px solid black;
+			}
+		}
     }
     #menu-list {
         .menu-container {

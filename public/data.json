@@ -2,35 +2,43 @@
     "drinks": [
         {
             "name": "House Coffee",
-            "price": ["1.69", "1.89"]
+            "description": "['1.69', '$1.89']",
+            "price": "$1.89"
         },
         {
             "name": "Americano",
-            "price": ["2.19", "2.49"]
+            "description": "['2.19', '2.49']",
+            "price": "$2.49"
         },
         {
             "name": "Cappucino",
-            "price": ["2.59", "2.99"]
+            "description": "['2.59', '2.99']",
+            "price": "$2.99"
         },
         {
             "name": "Cafe Latte",
-            "price": ["2.59", "2.99"]
+            "description": "['2.59', '2.99']",
+            "price": "$2.99"
         },
         {
             "name": "Mocha",
-            "price": ["2.79", "3.29"]
+            "description": "['2.79', '3.29']",
+            "price": "$3.29"
         },
         {
             "name": "White Mocha",
-            "price": ["2.79", "3.29"]
+            "description": "['2.79', '3.29']",
+            "price": "$3.29"
         },
         {
             "name": "Zebra Mocha",
-            "price": ["2.79", "3.29"]
+            "description": "['2.79', '3.29']",
+            "price": "$3.29"
         },
         {
             "name": "Caramel Machiato",
-            "price": ["2.79", "3.29"]
+            "description": "['2.79', '3.29']",
+            "price": "$3.29"
         }
     ],
     "breakfast": [
@@ -80,7 +88,7 @@
             "price": "$6.49"
         }
     ],
-    "lunch": [
+    "signature sandwiches": [
         {
             "name": "BLT",
             "description": "Bacon, Lettuce, Tomato and Mayo",
@@ -137,16 +145,6 @@
             "price": "$7.29"
         },
         {
-            "name": "Bulgogi Box",
-            "description": "Bulgogi (Korean Marinated Beef), Steamed Rice, Side Salad and Side Item",
-            "price": "$8.99"
-        },
-        {
-            "name": "Bibim Bap",
-            "description": "Choice of Bulgogi, Chicken (Spicy Available), or Veggie, Cooked Egg, Red Cabbage, Lettuce, Cucumbers, Caramelized Carrots, Steamed Rice, House Pepper Sauce",
-            "price": "$6.99"
-        },
-        {
             "name": "Spinach Melt",
             "description": "Spinach, Sun-Dried Tomatos, Provolone Cheese, Feta Cheese, Pesto Mayo served on Focaccia Bread",
             "price": "$5.99"
@@ -155,11 +153,6 @@
             "name": "Humdinger",
             "description": "Hummus, Avocado, Sprout, Red Onions, Lettuce and Tomato",
             "price": "$5.99"
-        },
-        {
-            "name": "",
-            "description": "",
-            "price": "$"
         }
     ],
     "salads": [
@@ -209,7 +202,9 @@
             "name": "Ham & Swiss Panini",
             "description": "Blackforest Ham, Swiss Cheese, Mustard or Mayo",
             "price": "$6.99"
-        },
+        }
+    ],
+    "wraps": [
         {
             "name": "Chicken Fajita Wrap",
             "description": "Chicekn Breast, Cheddar Cheese, Lettuce, Tomato and Mango Salsa",
@@ -234,6 +229,18 @@
             "name": "Korean Bulgogi Wrap",
             "description": "Bulgogi (Korean Marinated Beef), Provolone Cheese, Onions, Steamed Rice, Lettuce, Tomato and House Mayo",
             "price": "$7.29"
+        }
+    ],
+    "lunch box": [
+        {
+            "name": "Bulgogi Box",
+            "description": "Bulgogi (Korean Marinated Beef), Steamed Rice, Side Salad and Side Item",
+            "price": "$8.99"
+        },
+        {
+            "name": "Bibim Bap",
+            "description": "Choice of Bulgogi, Chicken (Spicy Available), or Veggie, Cooked Egg, Red Cabbage, Lettuce, Cucumbers, Caramelized Carrots, Steamed Rice, House Pepper Sauce",
+            "price": "$6.99"
         }
     ]
 }

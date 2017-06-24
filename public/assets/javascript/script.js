@@ -1,13 +1,15 @@
 (function() {
 	'use strict';
 
-	document.addEventListener('DOMContentLoaded', launch());
+	launch();
+	// This is happening when all scripts are loaded dummy
 
 	function launch() {
-		getData();
+		getData("paninis");
+		menuClick();
 	}
 
-	function getData() {
+	function getData(menuName) {
 		var req = new XMLHttpRequest();
 		var response = req.response;
 		req.open('GET', 'data.json', true);
@@ -15,15 +17,27 @@
 		req.onreadystatechange = function() {
 			if (req.readyState == 4 && req.status == 200) {
 				var response = JSON.parse(req.responseText);
-				loopMenu(response["paninis"]);
+				loopMenu(response[menuName]);
 				return response;
 			}
 		}
 		req.send();
 	}
 
+	function menuClick(object) {
+		var menulist = document.getElementsByClassName('menu-item');
+		var menuListArray = Array.prototype.slice.call(menulist);
+
+		menuListArray.forEach(function(link) {
+			link.addEventListener('click', function() {
+				getData(link.innerHTML.toLowerCase());
+			})
+		})
+	}
+
 	function loopMenu(response) {
 		var menu = document.getElementById("menu-list");
+		menu.innerHTML = "";
 		response.forEach(function(res) {
 			menu.appendChild(menuItem(res));
 		})
@@ -43,7 +57,7 @@
 
 		itemContainer.classList.add("menu-container");
 		itemContainer.classList.add("col-sm-5");
-		
+
 		itemContainer.appendChild(itemName);
 		itemContainer.appendChild(itemPrice);
 		itemContainer.appendChild(itemDescription);
