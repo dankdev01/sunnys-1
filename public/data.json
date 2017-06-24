@@ -2,42 +2,42 @@
     "drinks": [
         {
             "name": "House Coffee",
-            "description": "['1.69', '$1.89']",
+            "description": "Small: 1.69, Large: $1.89",
             "price": "$1.89"
         },
         {
             "name": "Americano",
-            "description": "['2.19', '2.49']",
+            "description": "Small: 2.19, Large: $2.49",
             "price": "$2.49"
         },
         {
             "name": "Cappucino",
-            "description": "['2.59', '2.99']",
+            "description": "Small: 2.59, Large: $2.99",
             "price": "$2.99"
         },
         {
             "name": "Cafe Latte",
-            "description": "['2.59', '2.99']",
+            "description": "Small: 2.59, Large: $2.99",
             "price": "$2.99"
         },
         {
             "name": "Mocha",
-            "description": "['2.79', '3.29']",
+            "description": "Small: 2.79, Large: $3.29",
             "price": "$3.29"
         },
         {
             "name": "White Mocha",
-            "description": "['2.79', '3.29']",
+            "description": "Small: 2.79, Large: $3.29",
             "price": "$3.29"
         },
         {
             "name": "Zebra Mocha",
-            "description": "['2.79', '3.29']",
+            "description": "Small: 2.79, Large: $3.29",
             "price": "$3.29"
         },
         {
             "name": "Caramel Machiato",
-            "description": "['2.79', '3.29']",
+            "description": "Small: 2.79, Large: $3.29",
             "price": "$3.29"
         }
     ],
