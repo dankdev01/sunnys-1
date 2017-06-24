@@ -56,7 +56,7 @@
 		itemDescription.classList.add("col-md-12");
 
 		itemContainer.classList.add("menu-container");
-		itemContainer.classList.add("col-sm-5");
+		itemContainer.classList.add("col-md-5");
 
 		itemContainer.appendChild(itemName);
 		itemContainer.appendChild(itemPrice);

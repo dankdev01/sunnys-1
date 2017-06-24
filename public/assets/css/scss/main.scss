@@ -1,3 +1,5 @@
+$white: #ffffff;
+
 body {
 	padding: 0;
 	border: 0;
@@ -5,7 +7,7 @@ body {
 }
 
 .navbar {
-	background-color: #ffffff;
+	background-color: $white;
 	border: none;
     .navbar-header {
         .navbar-brand {
@@ -36,17 +38,28 @@ body {
 }
 
 .menu {
-    .menu-links-container {
-        border: 1px solid red;
+	padding-left: 9%;
+	margin-bottom: 0;
+	.menu-links-container {
+		background-color: $white;
 		ul {
+			list-style-type: none;
+			padding: 0;
 			.menu-item {
-				border: 1px solid black;
+				padding-top: 15px;
+				padding-left: 10px;
+				height: 50px;
+				width: 100%;
+				border-bottom: 1px solid black;
+			}
+			.menu-item:last-child {
+				border: none;
 			}
 		}
     }
     #menu-list {
         .menu-container {
-			border-radius: 1px;
+			border-radius: 3px;
 			background-color: #ffffff;
 			min-height: 94px;
 			margin: 5px 5px;
@@ -57,21 +70,6 @@ body {
     }
 }
 
-.food-row {
-	margin-right: 0 auto;
-}
-
-.food-box {
-	text-align: center;
-}
-
-.food-description {
-	padding: 0px 25px;
-}
-
-#breakfast, #lunch, #salads, #paninis {
-	display: none;
-}
 
 .catering {
 	width: 100%;
@@ -135,11 +133,16 @@ footer {
 	margin-right: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-toggle {
-		margin-top: 50px;
+@media (min-width: 320px) and (max-width: 768px) {
+	.menu {
+		padding: 0;
+		.menu-item {
+			text-align: center;
+		}
+		#menu-list {
+			.menu-container {
+				margin: 0;
+			}
+		}
 	}
 }
