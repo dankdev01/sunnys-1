@@ -11,7 +11,7 @@ body {
 	border: none;
     .navbar-header {
         .navbar-brand {
-        	min-height: 120px;
+        	min-height: 110px;
         	min-width: 150px;
         	max-height: 120px;
         	max-width: 190px;
@@ -39,10 +39,10 @@ body {
 }
 
 .menu {
-	padding-left: 9%;
 	margin-bottom: 0;
 	.menu-links-container {
 		background-color: $white;
+		border-radius: 3px;
 		ul {
 			list-style-type: none;
 			padding: 0;
@@ -63,7 +63,7 @@ body {
 			border-radius: 3px;
 			background-color: #ffffff;
 			min-height: 94px;
-			margin: 5px 5px;
+			margin: 0px 5px 5px 0px;
 			.menu-item-description {
 				font-size: 1em;
 			}
@@ -77,6 +77,11 @@ body {
 	text-align: center;
 	background-color: #f9bd25;
 	max-height: 400px;
+	.cater-description {
+		h3 {
+			margin-top: 60px;
+		}
+	}
 	#left-adjust {
 		padding-left: 0 !important;
 	}
@@ -106,7 +111,6 @@ footer {
 
 @media (min-width: 320px) and (max-width: 768px) {
 	.menu {
-		padding: 0;
 		ul {
 			ul:nth-child(3) {
 				margin-top: 1px;
@@ -132,13 +136,51 @@ footer {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1101px) {
-	#menu-choices {
-		.menu-item {
-			text-align: center;
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu {
+		.menu-links-container {
+			#menu-choices {
+				.menu-item {
+					text-align: center;
+				}
+			}
 		}
 	}
 	.catering {
 		min-height: 200px;
+	}
+}
+
+// *Signature Sandwiches
+@media (min-width: 992px) and (max-width: 1108px) {
+	.menu {
+		.menu-links-container {
+			#menu-choices {
+				.menu-item:nth-child(3) {
+					padding-top: 3px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1109px) and (max-width: 1199px) {
+	.menu {
+		.menu-links-container {
+			#menu-choices {
+				.menu-item:nth-child(3) {
+					padding-top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1680px) {
+	.menu {
+		padding-left: 8%;
+		.menu-links-container {
+			width: auto;
+		}
 	}
 }

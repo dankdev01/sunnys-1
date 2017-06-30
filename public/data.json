@@ -157,11 +157,6 @@
     ],
     "salads": [
         {
-            "name": "House Salad",
-            "description": "Romaine Lettuce, Tomatos, Green &amp; Red Peppers, Onions, Carrots, Cucumbers, Hard Boiled Egg w/ Balsamic Dressing",
-            "price": "$5.99"
-        },
-        {
             "name": "Caesar Salad",
             "description": "Romaine Lettuce, Tomatos, Onions, Ctroutons, Parmasean Cheese w/ Caesar Dressing",
             "price": "$6.49"
@@ -175,6 +170,11 @@
             "name": "Cobb Salad",
             "description": "Romaine Lettuce, Chicken Breast, Bacon, Avocado, Tomatos w/ Balsamic Vinagrette",
             "price": "$7.99"
+        },
+        {
+            "name": "House Salad",
+            "description": "Romaine Lettuce, Tomatos, Green &amp; Red Peppers, Onions, Carrots, Cucumbers, Hard Boiled Egg w/ Balsamic Dressing",
+            "price": "$5.99"
         }
     ],
     "paninis": [
