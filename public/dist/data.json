@@ -50,7 +50,7 @@
         {
             "name": "Bagel w/ Butter",
             "description": "Plain, Cinnamon Raisin, Whole Wheat, Everything",
-            "price": "$2.09"
+            "price": "$2.49"
         },
         {
             "name": "Bagel w/ Cream Cheese",
@@ -90,13 +90,38 @@
     ],
     "signature sandwiches": [
         {
+            "name": "Grilled Cheese",
+            "description": "American Cheese - Add Bacon or Ham or Turkey Bacon for $1",
+            "price": "$4.29"
+        },
+        {
+            "name": "Egg Salad",
+            "description": "Homemade Egg Salad, Lettuce, Tomato and Mayo",
+            "price": "$4.99"
+        },
+        {
+            "name": "Spinach Melt",
+            "description": "Spinach, Sun-Dried Tomatos, Provolone Cheese, Feta Cheese, Pesto Mayo served on Focaccia Bread",
+            "price": "$5.99"
+        },
+        {
             "name": "BLT",
             "description": "Bacon, Lettuce, Tomato and Mayo",
             "price": "$5.99"
         },
         {
+            "name": "Chicken or Tuna Salad",
+            "description": "Tuna or Chicken Salad, Lettuce, Tomato and Mayo",
+            "price": "$6.49"
+        },
+        {
             "name": "Reuben",
             "description": "Corn Beef, Sauerkraut, Swiss Cheese and Thousand Island Dressing",
+            "price": "$6.99"
+        },
+        {
+            "name": "Pita Tuna",
+            "description": "Tuna Salad, Sprouts, Cucumber, Lettuce, Tomato, Red Onions and Mayo",
             "price": "$6.99"
         },
         {
@@ -108,11 +133,6 @@
             "name": "Turkey Avocado",
             "description": "Turkey Breast, Avocado, Provolone Cheese, Lettuce, Tomato and Pesto Mayo",
             "price": "$7.29"
-        },
-        {
-            "name": "Pita Tuna",
-            "description": "Tuna Salad, Sprouts, Cucumber, Lettuce, Tomato, Red Onions and Mayo",
-            "price": "$6.99"
         },
         {
             "name": "Club Special",
@@ -128,39 +148,9 @@
             "name": "Chicken Cheese Steak",
             "description": "Chicken Breast, Onions, Green Peppers, Provolone Cheese, Lettuce, Tomato and Mayo",
             "price": "$7.29"
-        },
-        {
-            "name": "Egg Salad",
-            "description": "Homemade Egg Salad, Lettuce, Tomato and Mayo",
-            "price": "$4.99"
-        },
-        {
-            "name": "Chicken or Tuna Salad",
-            "description": "Tuna or Chicken Salad, Lettuce, Tomato and Mayo",
-            "price": "$6.49"
-        },
-        {
-            "name": "Grilled Cheese",
-            "description": "American Cheese - Add Bacon or Ham or Turkey Bacon for $1",
-            "price": "$7.29"
-        },
-        {
-            "name": "Spinach Melt",
-            "description": "Spinach, Sun-Dried Tomatos, Provolone Cheese, Feta Cheese, Pesto Mayo served on Focaccia Bread",
-            "price": "$5.99"
-        },
-        {
-            "name": "Humdinger",
-            "description": "Hummus, Avocado, Sprout, Red Onions, Lettuce and Tomato",
-            "price": "$5.99"
         }
     ],
     "salads": [
-        {
-            "name": "House Salad",
-            "description": "Romaine Lettuce, Tomatos, Green &amp; Red Peppers, Onions, Carrots, Cucumbers, Hard Boiled Egg w/ Balsamic Dressing",
-            "price": "$5.99"
-        },
         {
             "name": "Caesar Salad",
             "description": "Romaine Lettuce, Tomatos, Onions, Ctroutons, Parmasean Cheese w/ Caesar Dressing",
@@ -175,12 +165,17 @@
             "name": "Cobb Salad",
             "description": "Romaine Lettuce, Chicken Breast, Bacon, Avocado, Tomatos w/ Balsamic Vinagrette",
             "price": "$7.99"
+        },
+        {
+            "name": "House Salad",
+            "description": "Romaine Lettuce, Tomatos, Green &amp; Red Peppers, Onions, Carrots, Cucumbers, Hard Boiled Egg w/ Balsamic Dressing",
+            "price": "$5.99"
         }
     ],
     "paninis": [
         {
-            "name": "Roast Beef Panini",
-            "description": "Roast Beef, Cheddar Cheese, Caramelized Onions and Horseradish Mayo",
+            "name": "Turkey Bacon Swiss Panini",
+            "description": "Turkey Breast, Bacon, Swiss Cheese and Mayo",
             "price": "$6.99"
         },
         {
@@ -189,19 +184,19 @@
             "price": "$6.99"
         },
         {
-            "name": "Turkey Bacon Swiss Panini",
-            "description": "Turkey Breast, Bacon, Swiss Cheese and Mayo",
+            "name": "Ham & Swiss Panini",
+            "description": "Blackforest Ham, Swiss Cheese, Mustard or Mayo",
+            "price": "$6.99"
+        },
+        {
+            "name": "Roast Beef Panini",
+            "description": "Roast Beef, Cheddar Cheese, Caramelized Onions and Horseradish Mayo",
             "price": "$6.99"
         },
         {
             "name": "California Chicken Panini",
             "description": "Avocado, Chicken Breast, Bacon, Provolone Cheese, Lettuce, Tomato and Horseradish Mayo",
             "price": "$7.49"
-        },
-        {
-            "name": "Ham & Swiss Panini",
-            "description": "Blackforest Ham, Swiss Cheese, Mustard or Mayo",
-            "price": "$6.99"
         }
     ],
     "wraps": [

@@ -2,10 +2,9 @@
 	'use strict';
 
 	launch();
-	// This is happening when all scripts are loaded dummy
 
 	function launch() {
-		getData("paninis");
+		getData("signature sandwiches");
 		menuClick();
 	}
 
@@ -56,8 +55,8 @@
 		itemDescription.classList.add("col-md-12");
 
 		itemContainer.classList.add("menu-container");
-		itemContainer.classList.add("col-lg-6");
-		itemContainer.classList.add("col-md-6");
+		itemContainer.classList.add("col-lg-5");
+		itemContainer.classList.add("col-md-5");
 
 		itemContainer.appendChild(itemName);
 		itemContainer.appendChild(itemPrice);
